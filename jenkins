@@ -1,0 +1,14 @@
+pipeline{
+    agent any
+    
+    tools {nodejs "node"}
+    
+    stages{
+        stage('Build'){
+            steps{
+                git branch: 'main', url: 'https://github.com/saipavan9010/node-js-backend.git'
+                bat 'npm install'
+            }
+        }
+    }
+}
