@@ -1,0 +1,10 @@
+port=3001
+SECRET=cosmic
+DB_URL=mongodb+srv://dudelybhai:safrus333@cosmic-qytne.gcp.mongodb.net/cdp?retryWrites=true&w=majority
+DB_URI=mongodb://localhost:27017/myappdatabase
+CMS_PAGE_URL=http://cdp.cosmicconsultancy.com
+mongodump=C:/Program Files/MongoDB/Server/4.0/bin
+bdbackup=C:/backup
+Process=production
+BASE_URL = http://api.cosmicconsultancy.com
+
